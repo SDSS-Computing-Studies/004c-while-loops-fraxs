@@ -19,3 +19,13 @@ Enter number:4
 That is an even integer
 
 """
+num1 = ""
+PosInt = False
+while PosInt:
+    num1 = float( input("Enter a number: "))
+    num1 = num1%2
+    if num1 == int(num1):
+        PosInt = True
+        break
+    else:
+        print
