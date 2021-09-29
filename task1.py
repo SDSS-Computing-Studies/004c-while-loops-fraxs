@@ -20,3 +20,9 @@ Example:
 10
 ...
 """
+x = 2
+while True:
+    x = x + 2
+    print(x)
+    if x == 20:
+        break

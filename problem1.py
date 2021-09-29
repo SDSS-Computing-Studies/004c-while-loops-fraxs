@@ -30,3 +30,7 @@ Enter password: 1234
 Access denied
 Too many failed attempts. Access denied.
 """
+username = str( input("Enter username: "))
+while username != "admin":
+    print("Access Denied")
+    
