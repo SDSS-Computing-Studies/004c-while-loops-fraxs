@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "Task 1",
+      "setup": "",
+      "run": "python3 task1.py",
+      "input": "",
+      "output": "2\r\n4\r\n6\r\n8\r\n10\r\n12\r\n14\r\n16\r\n18\r\n20",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Task 2",
+      "setup": "",
+      "run": "python3 task2.py",
+      "input": "admin\r\n12345",
+      "output": "Access granted",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Task 2b",
+      "setup": "",
+      "run": "python3 task2.py",
+      "input": "yoko\r\nono\r\nadmin\r\n12345",
+      "output": "Access granted",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Task 3",
+      "setup": "",
+      "run": "python3 task3.py",
+      "input": "1.3\r\n4\r\n",
+      "output": ".*That is not an even integer.*[\\r\\n].*That is an even integer.*",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Problem 1a",
+      "setup": "",
+      "run": "python3 problem1.py",
+      "input": "admin\r\n12345",
+      "output": "Access granted",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Problem 1b",
+      "setup": "",
+      "run": "python3 problem1.py",
+      "input": "julian\r\nforward\r\nadmin\r\n12345",
+      "output": "Access granted",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Problem 2a",
+      "setup": "",
+      "run": "python3 problem2.py",
+      "input": "5",
+      "output": "5 10 15 20 25 30 35 40 45 50 55 60",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Problem 2b",
+      "setup": "",
+      "run": "python3 problem2.py",
+      "input": "8",
+      "output": "8 16 24 32 40 48 56 64 72 80",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Problem 3",
+      "setup": "",
+      "run": "python3 problem3.py",
+      "input": "",
+      "output": "1 1 2 3 5 8 13 21 34 55 89 144",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
