@@ -21,11 +21,11 @@ That is an even integer
 """
 num1 = ""
 PosInt = False
-while PosInt:
+while PosInt == False:
     num1 = float( input("Enter a number: "))
-    num1 = num1%2
+    num1 = num1/2
     if num1 == int(num1):
         PosInt = True
-        break
     else:
-        print
+        print("That is not an even integer")
+print("That is an even integer")

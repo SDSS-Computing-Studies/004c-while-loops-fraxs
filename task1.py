@@ -20,7 +20,7 @@ Example:
 10
 ...
 """
-x = 2
+x = 0
 while True:
     x = x + 2
     print(x)
