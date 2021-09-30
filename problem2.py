@@ -19,6 +19,7 @@ Enter a number: 4
 """
 x = int( input("Enter a number: "))
 mult = 1
+print(x, '', end='')
 while True:
     mult = mult+1
     product = f"{x*mult} "
