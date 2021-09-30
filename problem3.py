@@ -13,3 +13,13 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+x = 1
+y = 1
+print(x, y, '', end='')
+while True:
+    x = x+y
+    y = x+y
+    print(x, '', end='')
+    print(y, '', end='')
+    if x > 100 or y > 100:
+        break

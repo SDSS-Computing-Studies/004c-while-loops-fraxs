@@ -18,4 +18,10 @@ Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
 x = int( input("Enter a number: "))
-print(x, x+x, x+x+x, x+x+x+x, x+x+x+x+x, x+x+x+x+x+x, x+x+x+x+x+x+x, x+x+x+x+x+x+x+x, x+x+x+x+x+x+x+x+x, x+x+x+x+x+x+x+x+x+x, x+x+x+x+x+x+x+x+x+x+x, x+x+x+x+x+x+x+x+x+x+x+x )
+mult = 1
+while True:
+    mult = mult+1
+    product = f"{x*mult} "
+    print(product, end='')
+    if mult == 12:
+        break
