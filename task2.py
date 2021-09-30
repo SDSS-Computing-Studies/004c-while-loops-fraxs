@@ -30,8 +30,8 @@ Access granted
 
 """
 while True:
-    username = str( input("Enter username: "))
-    password = str( input("Enter password: "))
+    username = str( input("Enter username: ")).strip()
+    password = str( input("Enter password: ")).strip()
     if username != "admin" or password != "12345":
         print("Access Denied")
     else:
